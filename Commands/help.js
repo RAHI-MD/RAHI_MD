@@ -150,7 +150,7 @@ async function helpCommand(sock, chatId, message) {
 ╏ ➜ .git  
 ╏ ➜ .github  
 ╰━━━━━━━━━━━━⊷
-> *Powered By 𝐌𝐨𝐡𝐚𝐦𝐦𝐚𝐝 𝐑𝐚𝐡𝐢 𓃴*`;
+> *Powered By 𝐌𝐨𝐡𝐚𝐦𝐦𝐚𝐝 𝐑𝐚𝐡𝐢 𓃴*
 Join our channel for updates:`;
 
     try {
