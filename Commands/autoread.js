@@ -1,5 +1,5 @@
 /**
- * Knight Bot - A WhatsApp Bot
+ * 𝑹𝑨𝑯𝑰_𝑴𝑫 - A WhatsApp Bot
  * Autoread Command - Automatically read all messages
  */
 
@@ -31,8 +31,8 @@ async function autoreadCommand(sock, chatId, message) {
                     forwardingScore: 1,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363161513685998@newsletter',
-                        newsletterName: 'KnightBot MD',
+                        newsletterJid: '120363426138659599@newsletter',
+                        newsletterName: '𝑹𝑨𝑯𝑰_𝑴𝑫',
                         serverMessageId: -1
                     }
                 }
@@ -62,8 +62,8 @@ async function autoreadCommand(sock, chatId, message) {
                         forwardingScore: 1,
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
-                            newsletterJid: '120363161513685998@newsletter',
-                            newsletterName: 'KnightBot MD',
+                            newsletterJid: '120363426138659599@newsletter',
+                            newsletterName: '𝑹𝑨𝑯𝑰_𝑴𝑫',
                             serverMessageId: -1
                         }
                     }
@@ -85,8 +85,8 @@ async function autoreadCommand(sock, chatId, message) {
                 forwardingScore: 1,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363161513685998@newsletter',
-                    newsletterName: 'KnightBot MD',
+                    newsletterJid: '120363426138659599@newsletter',
+                    newsletterName: '𝑹𝑨𝑯𝑰_𝑴𝑫',
                     serverMessageId: -1
                 }
             }
@@ -100,8 +100,8 @@ async function autoreadCommand(sock, chatId, message) {
                 forwardingScore: 1,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363161513685998@newsletter',
-                    newsletterName: 'KnightBot MD',
+                    newsletterJid: '120363426138659599@newsletter',
+                    newsletterName: '𝑹𝑨𝑯𝑰_𝑴𝑫',
                     serverMessageId: -1
                 }
             }
