@@ -4,7 +4,7 @@ const path = require('path');
 
 async function helpCommand(sock, chatId, message) {
     const helpMessage = `
-╭══〘〘 *𝐈𝐠𝐫𝐢𝐬 𝐗𝐝 𝐌𝐄𝐍𝐔* 〙〙══⊷
+╭══〘〘 *𝑹𝑨𝑯𝑰_𝑴𝑫* 〙〙══⊷
 ┃❍ *Owner:* ${settings.botOwner}
 ┃❍ *Speed:* ${ping} ms
 ┃❍ *Uptime:* ${uptimeFormatted}
@@ -150,7 +150,7 @@ async function helpCommand(sock, chatId, message) {
 ╏ ➜ .git  
 ╏ ➜ .github  
 ╰━━━━━━━━━━━━⊷
-> *Powered By Nexus Corp 𓃴*`;
+> *Powered By 𝐌𝐨𝐡𝐚𝐦𝐦𝐚𝐝 𝐑𝐚𝐡𝐢 𓃴*`;
 Join our channel for updates:`;
 
     try {
