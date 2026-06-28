@@ -1,14 +1,3 @@
-/**
- * 𝑹𝑨𝑯𝑰_𝑴𝑫 - A WhatsApp Bot
- * Copyright (c) 2026 Professor
- * 
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the MIT License.
- * 
- * Credits:
- * - Baileys Library by @adiwajshing
- * - Pair Code implementation inspired by TechGod143 & DGXEON
- */
 require('./settings')
 const { Boom } = require('@hapi/boom')
 const fs = require('fs')
@@ -70,7 +59,7 @@ setInterval(() => {
     }
 }, 30_000) // check every 30 seconds
 
-let phoneNumber = "8801733727775"
+let phoneNumber = "911234567890"
 let owner = JSON.parse(fs.readFileSync('./data/owner.json'))
 
 global.botname = "𝑹𝑨𝑯𝑰_𝑴𝑫"
@@ -161,7 +150,7 @@ async function startXeonBotInc() {
                             isForwarded: true,
                             forwardedNewsletterMessageInfo: {
                                 newsletterJid: '120363426138659599@newsletter',
-                                newsletterName: '𝑹𝑨𝑯𝑰_𝑴𝑫',
+                                newsletterName: '𝑹𝑨𝑯𝑰_𝑴𝑫 💫😶🥵',
                                 serverMessageId: -1
                             }
                         }
@@ -259,7 +248,7 @@ async function startXeonBotInc() {
         
         if (connection == "open") {
             console.log(chalk.magenta(` `))
-            console.log(chalk.yellow(`🌿Connected to 𝑹𝑨𝑯𝑰_𝑴𝑫 => ` + JSON.stringify(XeonBotInc.user, null, 2)))
+            console.log(chalk.yellow(`🌿Connected to => ` + JSON.stringify(XeonBotInc.user, null, 2)))
 
             try {
                 const botNumber = XeonBotInc.user.id.split(':')[0] + '@s.whatsapp.net';
@@ -270,7 +259,7 @@ async function startXeonBotInc() {
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
                             newsletterJid: '120363426138659599@newsletter',
-                            newsletterName: '𝑹𝑨𝑯𝑰_𝑴𝑫',
+                            newsletterName: ' 𝑹𝑨𝑯𝑰_𝑴𝑫 💫😶🥵',
                             serverMessageId: -1
                         }
                     }
@@ -280,13 +269,13 @@ async function startXeonBotInc() {
             }
 
             await delay(1999)
-            console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`[ ${global.botname || '𝑹𝑨𝑯𝑰_𝑴𝑫'} ]`)}\n\n`))
+            console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`[ ${global.botname || '𝐇𝐢𝐝𝐞 𝐅𝐚𝐜𝐞 💫😶🥵'} ]`)}\n\n`))
             console.log(chalk.cyan(`< ================================================== >`))
-            console.log(chalk.magenta(`\n${global.themeemoji || '•'} YT CHANNEL: 𝐌𝐨𝐡𝐚𝐦𝐦𝐚𝐝 𝐑𝐚𝐡𝐢`))
-            console.log(chalk.magenta(`${global.themeemoji || '•'} GITHUB: 𝑹𝑨𝑯𝑰_𝑴𝑫`))
+            console.log(chalk.magenta(`\n${global.themeemoji || '•'} 𝑹𝑨𝑯𝑰_𝑴𝑫`))
+            console.log(chalk.magenta(`${global.themeemoji || '•'} GITHUB: mrunqiuehacker`))
             console.log(chalk.magenta(`${global.themeemoji || '•'} WA NUMBER: ${owner}`))
-            console.log(chalk.magenta(`${global.themeemoji || '•'} CREDIT: 𝐌𝐨𝐡𝐚𝐦𝐦𝐚𝐝 𝐑𝐚𝐡𝐢𝐌𝐨𝐡𝐚𝐦𝐦𝐚𝐝 𝐑𝐚𝐡𝐢`))
-            console.log(chalk.green(`${global.themeemoji || '•'} 🤖 𝑹𝑨𝑯𝑰_𝑴𝑫 Connected Successfully! ✅`))
+            console.log(chalk.magenta(`${global.themeemoji || '•'} CREDIT: 𝑹𝑨𝑯𝑰_𝑴𝑫 💫😶🥵`))
+            console.log(chalk.green(`${global.themeemoji || '•'} 🤖 𝑹𝑨𝑯𝑰_𝑴𝑫 💫😶🥵 Connected Successfully! ✅`))
             console.log(chalk.blue(`Bot Version: ${settings.version}`))
         }
         
